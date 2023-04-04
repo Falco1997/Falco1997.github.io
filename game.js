@@ -7,6 +7,5 @@ function setStartPoint(event) {
     startPointX = event.clientX
     startPointY = event.ClientY
 
-    if (startPointX != 0) alert("boooog")
-    if (startPointX == 0) alert("good")
+    if (startPointX != 0)
 }
