@@ -1,11 +1,12 @@
-const canvas = document.getElementById('canvas')
-const context = canvas.getContext('2d')
+let isPainting = false;
+
+context.lineCap = 'round';
+context.lineWidth = 35;
+context.strokeStyle = 'blue';
 
 canvas.addEventListener('mousedown', startPainting);
 canvas.addEventListener('mousemove', continuePainting);
 canvas.addEventListener('mouseup', stopPainting);
-
-let isPainting = false;
 
 function startPainting(event) {
     isPainting = true;
