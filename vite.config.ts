@@ -6,5 +6,5 @@ export default defineConfig({
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
 	},
-	base: "/Falco1997.github.io/"
+	base: "/Falco1997.github.io"
 });
