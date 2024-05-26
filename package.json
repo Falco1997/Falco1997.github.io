@@ -1,20 +1,22 @@
 {
   "name": "falco.github.io",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d build"
   },
-  "dependencies": {
-    "@sveltejs/adapter-static": "latest",
-    "@sveltejs/kit": "latest",
-    "svelte": "latest"
-  },
   "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.1",
     "@sveltejs/vite-plugin-svelte": "latest",
+    "svelte": "latest",
+    "svelte-preprocess": "^5.1.4",
     "vite": "latest"
+  },
+  "dependencies": {
+    "ci": "^2.3.0"
   }
 }

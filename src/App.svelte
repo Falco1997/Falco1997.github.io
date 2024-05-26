@@ -1,16 +1,8 @@
 <script>
-	import Game from './routes/Game.svelte';
+	import Counter from './lib/Counter.svelte';
 </script>
 
-<main>
-	<Game />
-</main>
+<Counter initialCount={0} maxCount={10} />
 
 <style>
-	main {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 100vh;
-	}
 </style>
