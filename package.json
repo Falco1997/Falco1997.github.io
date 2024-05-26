@@ -12,6 +12,7 @@
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.1",
     "@sveltejs/vite-plugin-svelte": "latest",
+    "sass": "^1.77.2",
     "svelte": "latest",
     "svelte-preprocess": "^5.1.4",
     "vite": "latest"
